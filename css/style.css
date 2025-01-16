@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2f2eb;
+}
+
+header {
+    margin-left: 6em;
+    margin-top: 8em;
+    margin-bottom: 0;
+}
+
+section img{
+    margin: 0;
+    position:absolute;
+    background-color: aqua;
+}
+
+section p {
+   position: absolute;
+   margin-top: 20em;
+   color: #f2f2eb;
+   margin-left: 5em;
+    font-size: 20px;
+    padding: 0;
+}
