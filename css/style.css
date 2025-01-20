@@ -5,14 +5,24 @@
 
 body {
     background-color: #f2f2eb;
-
 }
 
 .home-header {
     margin-top: 2em;
 }
 
-nav {
+.home-header img {
+    width: 80%;
+    margin-left: 2.3em;
+    margin-right: 2.3em;
+}
+
+p {
+    font-family: calibri;
+}
+
+
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -23,14 +33,11 @@ nav {
     padding-top: 20px;
 }
 
-
 nav a {
-    display: inline-block;
+    display: block;
     margin: 0 22px;
     margin-top: 1em;
     margin-bottom: 0.6em;
- 
-
 }
 
 nav ul {
@@ -48,24 +55,23 @@ nav ul {
 }
 
 .intro h1 {
-    font-family: mycustomfont;
-    font-weight: 500;
-    font-size: 25px;
     position: absolute;
+    font-family: vladimir-script;
+    font-weight: 500;
+    font-size: 30px;
     top: 10%;
     left: 10%;
-    right: 50%;
     max-width: 50%;
     color: #f2f2eb;
 }
 
 .intro p {
     position: absolute;
-    font-size: 16px;
-    font-family: calibri;
+    margin-bottom: 3em;
+    font-size: 13px;
     top: 24%;
     left: 10%;
-    right: 35%;
+    right: 30%;
     color: #f2f2eb;
 }
 
@@ -82,7 +88,7 @@ nav ul {
 }
 
 .vintage-mode h2 {
-    font-family: mycustomfont;
+    font-family: vladimir-script;
     color: #c11010;
     font-weight: 500;
     font-size: 35px;
@@ -90,7 +96,6 @@ nav ul {
 
 .vintage-mode p {
     font-size: 13px;
-    font-family: calibri;
 }
 
 .hoed {
@@ -102,7 +107,6 @@ nav ul {
 .lees-meer-knop {
     margin-top: 1.5em;
     width: 90px;
-
 }
 
 .cream {
@@ -113,7 +117,7 @@ nav ul {
 }
 
 .cream h2 {
-    font-family: mycustomfont;
+    font-family: vladimir-script;
     color: #c11010;
     font-weight: 500;
     font-size: 35px;
@@ -121,7 +125,6 @@ nav ul {
 
 .cream p {
     font-size: 13px;
-    font-family: calibri;
 }
 
 .vrouw {
@@ -136,16 +139,12 @@ nav ul {
 }
 
 
-
-
-
 /* WAAROM VINTAGE - PAGINA */
 .header-vintage {
     background-image: url(header-bg2.png);
     height: 100px;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 7px;
 }
 
 .header-vintage h1 {
@@ -158,16 +157,16 @@ nav ul {
 
 .header-vintage h2 {
     text-align: center;
-    margin-top: 0;
+    margin-bottom: 4em;
     margin-left: 3em;
-    font-family: mycustomfont;
+    font-family: vladimir-script;
     font-size: 40px;
     color: #c11010;
     font-weight: 500;
     line-height: 0.8;
 }
 
-.secundaire-logo {
+.header-vintage img {
     margin-left: 10px;
     margin-top: 5px;
     width: 60px;
@@ -179,8 +178,8 @@ nav ul {
     line-height: 1.5;
 }
 
-.vintage-kleding-text {
-    width: 20em;
+.vintage-kleding {
+  font-family: vladimir-script;
 }
 
 .rood-hoed {
@@ -188,16 +187,30 @@ nav ul {
     margin-right: 20px;
     float: right;
     animation: hithere 1.5s ease infinite;
-
 }
 
 @keyframes hithere {
-    30% {transform: scale(1.1);}
-    40%, 60% { transform: rotate(-15deg) scale(1.1); }
-    50% { transform: rotate(15deg) scale(1.1); }
-    70% { transform: rotate(0deg) scale(1.1); }
-    100% { transform: scale(1); }
-  }
+    30% {
+        transform: scale(1.1);
+    }
+
+    40%,
+    60% {
+        transform: rotate(-15deg) scale(1.1);
+    }
+
+    50% {
+        transform: rotate(15deg) scale(1.1);
+    }
+
+    70% {
+        transform: rotate(0deg) scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
 
 .voordelen {
     margin: 2em 2em 7em 2em;
@@ -212,13 +225,11 @@ nav ul {
 
 .voordelen p {
     font-size: 13px;
-    font-family: calibri;
     margin-right: 1em;
 }
 
-
 .voordelen h3 {
-    font-family: mycustomfont;
+    font-family: vladimir-script;
     font-weight: 500;
     color: #c11010;
     font-size: 35px;
@@ -227,7 +238,6 @@ nav ul {
 .hangers {
     float: right;
     margin-right: 20px;
-
 }
 
 .voordelen-rechts {
@@ -246,13 +256,11 @@ nav ul {
 
 .voordelen-rechts p {
     font-size: 13px;
-    font-family: calibri;
     margin-left: 1em;
 }
 
 .voordelen-rechts h3 {
-    font-family: mycustomfont;
-    /* font-family: vladimir script; */
+    font-family: vladimir-script;
     font-weight: 500;
     color: #c11010;
     font-size: 35px;
@@ -262,9 +270,97 @@ nav ul {
     float: left;
 }
 
+.witruimte {
+    margin: 3em;
+}
 
+
+/* CONTACT - PAGINA */
+.doe-mee {
+    margin-top: 5em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.doe-mee h2 {
+    line-height: 0.9em;
+    width: 70%;
+    margin-bottom: 0.4em;
+    font-family: vladimir-script;
+    color: #c11010;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.doe-mee p {
+    margin-bottom: 1em;
+    font-size: 13px;
+    margin-right: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    font-family: calibri;
+}
+
+#naam {
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+#email {
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+#bericht {
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-family: calibri;
+}
+
+button {
+    background-color: #f2f2eb;
+    border: none;
+}
+
+.verstuur-knop {
+    margin-top: 1em;
+    width: 95px;
+    display: flex;
+}
+
+.telefoon {
+    width: 75%;
+    margin: 5em 3em 7em 3em;
+}
+
+address {
+    /* display: flex;
+    justify-content: flex-start; */
+    margin-left: 2em;
+    margin-top: 14em;
+    margin-right: 2em;
+    /* background-color: aqua; */
+    font-size: 14px;
+    width: 100%;
+    
+}
 
 @font-face {
-    font-family: mycustomfont;
+    font-family: calibri;
+    src: url(calibri-regular.ttf);
+}
+
+@font-face {
+    font-family: vladimir-script;
     src: url(vladimir-script.TTF);
 }
