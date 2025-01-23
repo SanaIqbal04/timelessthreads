@@ -177,7 +177,6 @@ nav ul {
 
 .vintage-kleding {
     margin-top: 5em;
-    right: 50em;
 }
 
 .rood-hoed {
@@ -233,7 +232,7 @@ nav ul {
     font-size: 35px;
 }
 
-.hangers {
+.voordelen img {
     float: right;
     margin-right: 20px;
 }
@@ -272,8 +271,17 @@ nav ul {
 
 
 /* CONTACT - PAGINA */
+.contactgegevens {
+    font-family: calibri;
+    margin: 14em 2em 0 2em;
+}
+
+.contactgegevens h2 {
+    font-size: 15px;
+}
+
 .doe-mee {
-    margin: 5em 2em 0 2em;
+    margin: 3em 2em 0 2em;
 }
 
 .doe-mee h2 {
@@ -336,14 +344,6 @@ button {
     margin: 5em 3em 7em 3em;
 }
 
-.contactgegevens {
-    font-family: calibri;
-    margin: 14em 2em 3em 2em;
-}
-
-.contactgegevens h2 {
-    font-size: 15px;
-}
 
 @font-face {
     font-family: calibri;
